@@ -35,6 +35,7 @@ class ShipmentAddressDesign extends StatelessWidget
     });
 
     //send rider to shipmentScreen
+
     Navigator.push(context, MaterialPageRoute(builder: (context) => ParcelPickingScreen(
         purchaserId: purchaserId,
         purchaserAddress: model!.fullAddress,
